@@ -1,1 +1,1 @@
-# This branch is all about Learning Azure!
+# branch is all about Learning Azure!
