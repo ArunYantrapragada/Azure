@@ -9,8 +9,8 @@ function usage {
         exit
 }
 
-az login --service-principal -u 'sp-id' -p 'sp-key' --tenant 'tenant-id'
-az account set --subscription "subscriptionName"
+#az login --service-principal -u 'sp-id' -p 'sp-key' --tenant 'tenant-id'
+#az account set --subscription "subscriptionName"
 
 # Check to see if we have two arguments at least
 if [[ $1 = "" ]] | [[ $2 = "" ]]; then
