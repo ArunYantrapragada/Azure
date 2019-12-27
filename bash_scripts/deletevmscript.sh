@@ -63,12 +63,12 @@ else
     az network public-ip delete --ids $publicipArray
 fi
 
-echo Deleting NSG $nsgArray
-if [ -z "$nsgArray" ]
-then
-    echo "nsg not found."
-else
-    az network nsg delete --ids $nsgArray
-fi
+#echo Deleting NSG $nsgArray
+#if [ -z "$nsgArray" ]
+#then
+#    echo "nsg not found."
+#else
+#    az network nsg delete --ids $nsgArray
+#fi
 
 echo Done with $1.:
