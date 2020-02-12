@@ -1,5 +1,5 @@
-﻿$rgName = "pluralsight"
-$location = "South Central US"
+﻿$rgName = "testgroup"
+$location = "East US 2"
 
 Register-AzureRmResourceProvider -ProviderNamespace "Microsoft.KeyVault"
 New-AzureRmResourceGroup -Location $location -Name $rgName
